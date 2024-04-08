@@ -10,7 +10,7 @@
     "us": "Installing Windows on VirtualBox virtual machine",
     "es": "Instalar Windows en una máquina virtual de VirtualBox"
   },
-  "repository": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial",
+  "repository": "https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine",
   "duration": 5,
   "difficulty": "easy",
   "videoSolutions": true,
