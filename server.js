@@ -2,6 +2,7 @@ const express=require("express")
 const app=express()
 const cors=require("cors")
 const formidable = require('express-formidable');
+const filename="vminfo.json"
 const fs = require('fs');
 require("dotenv").config()
 
@@ -191,8 +192,8 @@ app.use("/public",express.static("./public"))
 
 app.get("/",(req,res)=>{
   console.log("Testing VMInfo");
-  if (fs.existsSync('vminfo.json')) {
-    const jsonData = fs.readFileSync('vminfo.json', 'utf8');
+  if (fs.existsSync(filename)) {
+    const jsonData = fs.readFileSync(filename, 'utf8');
     res.send(`
       <h1>${backendUrl}</h1>
       <code>${jsonData}</code>
@@ -217,7 +218,7 @@ app.post("/", async (req,res)=>{
         res.status(400).send({message:"Error on file"})    
       }else{
         let machinesInfo=parseFileData(data)
-        fs.writeFileSync('vminfo.json', JSON.stringify(machinesInfo), 'utf8');
+        fs.writeFileSync(filename, JSON.stringify(machinesInfo), 'utf8');
         console.log("Data ready: ", machinesInfo)
         res.status(200).send({message:"JSON saved successfully"})
       }

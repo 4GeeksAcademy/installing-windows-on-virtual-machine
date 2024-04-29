@@ -21,7 +21,6 @@
   "editor": {
     "version": "3.1.23"
   },
-  "gitpod":false,
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
   }
