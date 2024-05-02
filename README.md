@@ -9,7 +9,7 @@
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/blob/main/README.es.md) :es:*
+*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/blob/master/README.es.md) :es:*
 <!-- endhide -->
 
 In this exercise, you will install VirtualBox on your computer and use it to create a virtual machine with Windows 10. VirtualBox will be your lab throughout the course, where you will have virtual machines with different operating systems where you can experiment in a controlled environment without affecting your main machine.
