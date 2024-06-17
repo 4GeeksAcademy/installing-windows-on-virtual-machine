@@ -12,5 +12,3 @@ The following steps in this exercise are:
 4. Verification of the installation
 
 Go to the next step by clicking the arrow ➡️
-
-{{publicUrl}}

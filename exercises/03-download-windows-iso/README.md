@@ -4,7 +4,7 @@
 
 ### 1. Download the meda creation tool
 
-Visit the official website for [Download Windows 10]((https://www.microsoft.com/es-es/software-download/windows10)) to get the media creation tool. When you run the installer, a wizard will appear to guide you through the process.
+Visit the official website for [Download Windows 10](https://www.microsoft.com/es-es/software-download/windows10) to get the media creation tool. When you run the installer, a wizard will appear to guide you through the process.
 
 ![Download windows iso](../../.learn/assets/downloadWin1.png)
 
