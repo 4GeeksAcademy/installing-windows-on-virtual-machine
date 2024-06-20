@@ -4,11 +4,15 @@ En ésta práctica aprenderás a crear una maquina virtual con VirtualBox, y lue
 
 ## 1. Crea una nueva máquina Virtual
 
-Al abrir VirtualBox podrás ver el icono de "Añadir" marcado con una cruz verde
+Al abrir VirtualBox podrás ver el icono de "Nueva" marcado con un ícono azul.
 
 ![Inicio de instalador](../../.learn/assets/createvm0.png)
 
 ## 2. Escribe un nombre para tu máquina y un sistema operativo
+
+A continuación te presentamos la configuración que debe tener la máquina virtual, las imagenes que se presentan son del `Modo Experto`, verifica que tengas el modo activado y que la pantalla que veas sean como las imagenes. Las mismas opciones se pueden encontrar en `Modo guiado` pero con distinta presentacion.
+
+![Inicio de instalador](../../.learn/assets/createvm0-1.png)
 
 En la lista "Imagen ISO" deberás seleccionar la opcion "Otro" y agregar el archivo que creaste en el paso anterior
 
@@ -17,6 +21,12 @@ En la lista "Imagen ISO" deberás seleccionar la opcion "Otro" y agregar el arch
 ## 3. Instalación desatendida
 
 En este paso puedes personalizar configuraciones de la maquina que estas creando y que se aplicarán automáticamente durante la instalación, para que esta no se vea interrumpida en su proceso. Al finalizar el proceso deberás elegir un par de opciones de privacidad, pero ya el trabajo pesado estará hecho.
+
+### Clave de prodcuto
+
+En este caso es importante utilizar una clave de producto genérica, ésta se utiliza para instalar Windows pero no para activarlo. Omitir este paso generará un error en la instalación.
+
+> VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
 ![Inicio de instalador](../../.learn/assets/createvm2.png)
 

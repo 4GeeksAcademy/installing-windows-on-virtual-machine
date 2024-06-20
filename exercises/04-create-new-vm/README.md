@@ -4,11 +4,15 @@ In this practice you will learn how to create a virtual machine with VirtualBox,
 
 ## 1. Create a new virtual machine
 
-When you open VirtualBox you will see the "Add" icon marked with a green cross.
+When you open VirtualBox you will see the "New" icon marked with a blue icon.
 
 ![Inicio de instalador](../../.learn/assets/createvm0.png)
 
 ## 2. Enter a name for your machine and an operating system.
+
+The following is the configuration that the virtual machine must have, the images that are presented are from the `Expert Mode`, verify that you have the mode activated and that the screen that you see are like the images. The same options can be found in `Guided Mode` but with a different presentation.
+
+![Inicio de instalador](../../.learn/assets/createvm0-1.png)
 
 In the "ISO Image" list you should select the "Other" option and add the file you created in the previous step.
 
@@ -17,6 +21,12 @@ In the "ISO Image" list you should select the "Other" option and add the file yo
 ## 3. Unattended installation
 
 In this step you can customize settings of the machine you are creating that will be applied automatically during the installation, so that the installation process will not be interrupted. At the end of the process you will have to choose a couple of privacy options, but the hard work is done.
+
+### Product key
+
+In this case it is important to use a generic product key, this is used to install Windows but not to activate it. Skiping this steps will cause error during instalation
+
+> VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
 ![Inicio de instalador](../../.learn/assets/createvm2.png)
 
