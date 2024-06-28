@@ -4,7 +4,7 @@ In this practice you will learn how to create a virtual machine with VirtualBox,
 
 ## Installation on Windows
 
-Visita la web oficial de [VirtualBox](https://www.virtualbox.org/wiki/Downloads) para obtener el instalador para windows. La instalación es tan sencilla como la de cualquier otra aplicación de Windows. Cuando ejecutes el instalador verás un asistente que te guiará a través del proceso.
+Visit the official [VirtualBox website](https://www.virtualbox.org/wiki/Downloads) to get the Windows installer. The installation is as simple as any other Windows application. When you run the installer, you will see a wizard that will guide you through the process.
 
 ### 1. Run the installer
 
@@ -14,15 +14,17 @@ Visita la web oficial de [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
 ![Select all the features](../../.learn/assets/vbinstall2.png)
 
-### 3. Move on with the buttons "Yes" or "Next" until finish
+### 3. Move on with the buttons "Yes" or "Next" until you finish
 
 ![Installing VirtualBox](../../.learn/assets/vbinstall3.png)
 
 ## Installation on GNU/Linux
 
-In the case of GNU/Linux systems we have prepared 2 scripts that will help you with the installation https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions
+In the case of GNU/Linux systems, we have prepared 2 scripts that will help you with the installation https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions
 
-### Debian based distributions (deb)
+### Debian-based distributions (deb)
+
+Paste the following code on your terminal:
 
 ```bash
 wget https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-scripts/main/installing-virtualbox-linux-debian/install-virtualbox.sh -O - | sudo sh
@@ -30,12 +32,12 @@ wget https://raw.githubusercontent.com/4GeeksAcademy/cybersecurity-scripts/main/
 
 ### RedHat based distributions(rpm)
 
-First you need to install the key for rpm running this command:
+First you need to install the key for rpm by running this command:
 
 ```bash
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | rpm --import -
 ```
-Next you have to install one of this repos according your distribution
+Next, you have to install one of these repos according to your distribution.
 
 - Users of Oracle Linux / RHEL can add ​the Oracle Linux [repo file](https://download.virtualbox.org/virtualbox/rpm/el/virtualbox.repo) to /etc/yum.repos.d/.
 - Users of Fedora can add ​the Fedora [repo file](https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo) to /etc/yum.repos.d/.
@@ -47,5 +49,5 @@ Next you have to install one of this repos according your distribution
 
 ## Todas las opciones de instalacion
 
-Visita la web oficial de las descargas de VirtualBox
+Visit the virtual box website for other installation options:
 https://www.virtualbox.org/wiki/Downloads
