@@ -23,5 +23,11 @@
   },
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+  },
+  "variables": {
+    "serverUrl": {
+      "type": "command",
+      "source": "node .learn/assets/getServerUrl.js"
+    }
   }
 }
