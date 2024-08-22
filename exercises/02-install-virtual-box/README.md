@@ -43,11 +43,11 @@ Next, you have to install one of these repos according to your distribution.
 - Users of Fedora can add ​the Fedora [repo file](https://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo) to /etc/yum.repos.d/.
 - Users of openSUSE can add ​the openSUSE [repo file](https://download.virtualbox.org/virtualbox/rpm/opensuse/virtualbox.repo) to /etc/zypp/repos.d/.
 
-## Instalación en macOS con procesadores Intel
+## Installing on macOS with Intel CPU
 
-[Descarga aquí](https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-OSX.dmg) el instalador para tu sistema operativo.
+Download the [installer here](https://download.virtualbox.org/virtualbox/7.0.14/VirtualBox-7.0.14-161095-OSX.dmg).
 
-## Todas las opciones de instalacion
+## For any other OS
 
-Visit the virtual box website for other installation options:
+Visit the downloads section at VirtualBox.org for more options:
 https://www.virtualbox.org/wiki/Downloads
