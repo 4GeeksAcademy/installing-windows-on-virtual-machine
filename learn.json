@@ -18,10 +18,16 @@
   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
   "skills": ["cybersecurity"],
   "graded": true,
-  "editor": {
-    "version": "3.1.23"
+   "editor": {
+    "version": "3.1.43"
   },
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+  },
+  "variables": {
+    "serverUrl": {
+      "type": "command",
+      "source": "node .learn/assets/getServerUrl.js"
+    }
   }
 }
