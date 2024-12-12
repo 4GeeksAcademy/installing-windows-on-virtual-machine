@@ -16,13 +16,13 @@ Para ello selecciona la pestaña "Puertos" en el panel inferior de codespace, ah
 
 ## 3. Script de validación
 
-Es un script que hemos desarrollado a la medida de esta práctica. Se encarga de tomar la información de VirtualBox y enviarla para hacer la validación. Primero debes descargar el script y ejecutarlo el te solicitará una URL que puedes encontrar en el archivo `url.txt` que se encuentra en esta práctica.
+Es un script que hemos desarrollado a la medida de esta práctica. Se encarga de tomar la información de VirtualBox y enviarla para hacer la validación. Primero debes descargar el script y ejecutarlo el te solicitará una URL que puedes encontrarlo al lado del `puerto 3001`.
 
 [Descarga aquí el script de validación para Windows.](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/blob/master/.learn/assets/sendDataWin.zip)
 
 [Descarga aquí el script de validación para Linux.](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/blob/master/.learn/assets/sendDataBash.zip)
 
-Recuerda extraer el archivo antes de ejecutarlo.
+Recuerda extraer el archivo antes de ejecutarlo dentro de tu maquina virtual.
 
 ![Script Windows](../../.learn/assets/script-win.png)
 
