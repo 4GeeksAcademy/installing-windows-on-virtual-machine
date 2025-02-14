@@ -16,12 +16,13 @@ For this select the "Ports" tab in the lower panel of codespace, there you'll se
 
 ## 2. Validation Script
 
-It is a script that we have developed to the measure of this practice. It is in charge of taking the information from VirtualBox and send it to do the validation. First you must download the script and run it, it will ask you for a URL that you can find in the `url.txt` file found in this practice.
+It is a script that we have developed to the measure of this practice. It is in charge of taking the information from VirtualBox and send it to do the validation. First you must download the script and run it, it will ask you for a URL that you can find it next to the `port 3001`.
 
 [Downlad the script for valication on Windows here.](https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/raw/master/.learn/assets/sendDataWin.zip)
 
 [Downlad the script for valication on Linux here.]((https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/raw/master/.learn/assets/sendDataBash.zip))
-Remember extracting the file before executing it.
+
+Remember extracting the file before executing it inside your virtual machine.
 
 ![Script Windows](../../.learn/assets/script-win.png)
 
