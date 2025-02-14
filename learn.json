@@ -19,8 +19,9 @@
   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
   "skills": ["cybersecurity"],
   "graded": true,
-   "editor": {
-    "version": "3.1.43"
+  "editor": {
+    "version": "5.0",
+    "agent": "os"
   },
   "telemetry": {
     "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
