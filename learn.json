@@ -7,14 +7,15 @@
   "preview": "https://github.com/4GeeksAcademy/javascript-functions-exercises-tutorial/blob/master/.learn/assets/preview.png?raw=true",
   "slug": "installing-windows-on-a-virtual-machine",
   "description": {
-    "us": "Installing Windows on VirtualBox virtual machine",
-    "es": "Instalar Windows en una máquina virtual de VirtualBox"
+    "us": "Learn how to install Windows on a VirtualBox virtual machine in this interactive tutorial. Set up VirtualBox, create a virtual machine, and install Windows 10 step by step. This hands-on guide helps you experiment with different operating systems in a controlled environment without affecting your main system.",
+    "es": "Aprende a instalar Windows en una máquina virtual de VirtualBox con este tutorial interactivo. Configura VirtualBox, crea una máquina virtual e instala Windows 10 paso a paso. Esta guía práctica te permite experimentar con diferentes sistemas operativos en un entorno controlado sin afectar tu sistema principal."
   },
   "localhostOnly": true,
   "repository": "https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine",
   "duration": 5,
   "difficulty": "easy",
   "videoSolutions": true,
+  "technologies": ["cybersecurity", "windows", "ciberseguridad"],
   "projectType": "tutorial",
   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
   "skills": ["cybersecurity"],
@@ -24,8 +25,8 @@
     "agent": "os"
   },
   "telemetry": {
-    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-  },
+	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=1524"
+	},
   "variables": {
     "serverUrl": {
       "type": "command",
